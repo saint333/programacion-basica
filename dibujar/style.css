@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 60px;
+    background-color: skyblue;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-size: calc(1.4vh + 0.5rem);
+    padding: 7px;
+    width: 100%;
+}
+section{
+    background-color: rgb(103, 154, 173);
+    min-height: 400px;
+    width: calc(1vw + 30rem);
+    margin: auto;
+    margin-top: 7px;
+    padding:10px;
+    border-radius:8px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+h2{
+    margin: 10px;
+}
+canvas{
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+}
+input{
+    justify-self: center;
+    margin: 4px;
+}
+
+footer{
+    min-height: 60px;
+    background-color: skyblue;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding: 7px;
+    width: 100%;
+    margin-top: 10px;
+}
